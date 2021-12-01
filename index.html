@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Wootlab Cars Leasing Web App</title>
+    </head>
+    <link href="Style/index.css" type="text/css" rel="stylesheet" />
+    <link href="Style/map.css" type="text/css" rel="stylesheet" />
+    <script>
+        function register() 
+        {
+            window.location = "register.html";
+        }
+
+        function create() 
+        {
+            window.location = "createlocation.html";
+        }
+
+        function get() 
+        {
+            window.location = "getlocation.html";
+        }
+    </script>
+    <body>
+
+        <div id="header" class="header" >
+            <h2 id="header_title" class="header_title"> Wootlab Car Leasing App </h2>
+        </div>
+
+        <div class="admin" id="admin" >
+            <h3> Welcome Admin </h3>
+        </div>
+
+        <div id="body" class="body">
+            <div id="reg unity" class="reg unity">
+                   <input type="submit" class="btn btn_reg" name="register" value="Register Car" onclick="register()" />
+            </div>
+
+            <div id="update unity" class="update unity">
+                    <input type="submit" class="btn btn_update" name="update" value="Update Car Location" onclick="create()" />
+            </div>
+            
+            <div id="latlng unity" class="latlng unity">
+                    <input type="submit" class="btn btn_latlng" name="getlocation" value="Get Car Location" onclick="get()" />
+            </div>
+
+            <div id="map"></div>
+        </div>
+
+        <div id="map"></div>
+    
+        <script>
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 9.0765, lng: 7.3986}, 
+                zoom: 14
+                });
+
+                var marker = new google.maps.Marker({
+                 position: {lat: 9.07626244064324, lng: 7.500945585004179},
+                 map:map
+                })
+            }
+        </script>
+
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDpYbn53VuehnIPQ83A0MmNFT6Xg5l8ZU&callback=initMap">
+        </script>
+    
+        </body>
+
+</html>

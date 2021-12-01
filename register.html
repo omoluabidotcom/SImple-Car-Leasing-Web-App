@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register Car Page </title>
+    <link type="text/css" href="Style/register.css" rel="stylesheet" />
+    <script src="js/register.js" ></script>
+</head>
+<body>
+    <div id="div" class="div" >
+        <h2 id="head" class="head" > Register Car </h2> 
+            <p> Enter Car Model </p>
+            <input type="text" name="model" id="model" class="model unity" placeholder="Enter car model here" required />
+            <p> Enter Year </p>
+            <input type="number" name="year" id="year" class="year unity" placeholder="Enter year here" required />
+            <p> Enter Car License Plate </p>
+            <input type="text" name="license" id="license" class="license unity" placeholder="Enter car license here" required />
+            <p> Enter Current Kilometer </p>
+            <input type="number" name="kilometer" id="kilometer" class="kilometer unity" placeholder="Enter current Kilometer here" required />
+            <p> Enter Max Load(KG) </p>
+            <input type="number" name="kilogram" id="kilogram" class="kilogram unity" placeholder="Enter max kilogram here" required />
+            <p> Enter Fuel Type <br> e.g Gas, Diesel, Electric </p>
+            <input type="text" name="fueltype" id="fueltype" class="fueltype unity" placeholder="Enter fuel type here" required />
+            <input type="submit" name="register" id="register" class="register" placeholder="Register" onclick="fetchreg()" />
+    </div>
+    <div  id="unique_register" >
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* style */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* style for header */
+#head {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    height: 35px;
+}
+
+/* style for the div tag */
+#div {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 1000px;
+    text-align: center;
+}
+
+/* style for form tag */
+form.reg_form {
+    margin-top: 30px;
+}
+
+/* style for all input box */
+input.unity {
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* submit button style */
+input.create {
+    height: 30px;
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+

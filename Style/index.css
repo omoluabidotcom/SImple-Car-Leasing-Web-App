@@ -1,0 +1,97 @@
+/* style */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* style for the header */
+#header {
+    background-color: blue;
+    width: 1330px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* style for header writings */
+#header_title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* style for div with id attribute with value body */
+#body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 1330px;
+    height: 600px;
+}
+
+#admin {
+    text-align: center;
+}
+
+/* style for all div with unity id attribute value */
+div.unity {
+    border: 3px solid blue;
+    height: 300px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+/* register style */
+div.reg {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+/* background image for register div */
+div.reg {
+    background-image: url("../Img/car.jpg");
+}
+
+/* backhround image for upate div */
+div.latlng {
+    background-image: url("../Img/map.jpg");
+}
+
+/* background image for create div */
+div.update {
+    background-image: url("../Img/map.jpg");
+}
+
+/* update box style */
+div.update {
+    margin-right: 40px;
+}
+
+/* all three button style */
+input.btn {
+    margin-top: 245px;
+    margin-left: 115px;
+    height: 35px;
+    width: 150px;
+    border-width: 2px;
+}
+
+/* style all three input button on hover */
+input.btn:hover {
+    border-color: blue;
+    font-weight: bolder;
+    width: 165px;
+    margin-left: 105px;
+}
+
+/* map style */
+/* #map {
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+} */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Create Car Location </title>
+    <link type="text/css" href="Style/createlocation.css" rel="stylesheet" />
+    <script src="js/create.js" ></script>
+</head>
+<body>
+    <div id="div" class="div" >
+        <h2 id="head" class="head" > Create Car Location </h2> 
+            <p> Car Unique Identificatin Number </p>
+            <input type="number" name="car_id" id="car_id" class="car_id unity" placeholder="Enter car Identificatin" required />
+            <p> Latitude (in Abuja) </p>
+            <input type="number" name="lat" id="lat" class="lat unity" placeholder="Enter latitude here" required />
+            <p> Enter Longitude (in Abuja) </p>
+            <input type="number" name="lng" id="lng" class="lng unity" placeholder="Enter car longitude here" required />
+            <input type="submit" name="create" id="create" class="create" placeholder="Create" onclick="fetchreg()" />
+    </div>
+    <input id="unique_createlocation" >
+    </input>
+</body>
+</html>
